@@ -5,8 +5,8 @@ Prettier and ESLint are also configured as pre-commit hooks.
 
 ### How to run
 
-- `$ git clone git@github.com:brunolemos/react-native-web-monorepo.git`
-- `$ cd react-native-web-monorepo`
+- `$ git clone ...`
+- `$ cd rnw-test`
 - `$ yarn`
 - Web
   - [CRA] `$ yarn web`
