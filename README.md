@@ -5,11 +5,11 @@ Prettier and ESLint are also configured as pre-commit hooks.
 
 ### How to run
 
-- `$ git clone git@github.com:brunolemos/react-native-web-monorepo.git`
-- `$ cd react-native-web-monorepo`
+- `$ git clone ...`
+- `$ cd rnw-test`
 - `$ yarn`
 - Web
-  - [CRA] `$ yarn workspace web-cra start`
+  - [CRA] `$ yarn web`
   - [Next.js] `$ yarn workspace web-nextjs dev`
 - Mobile
   - [iOS]
@@ -27,3 +27,9 @@ Prettier and ESLint are also configured as pre-commit hooks.
       - `$ yarn workspace mobile start`
       - `yarn studio`
       - Press the Run button
+
+### Chrome extension
+
+- `$ yarn web:build`
+- Visit `chrome://extensions/` on your Chrome browser and enable the developer mode toggle.
+- Then, click `Load unpacked` and select your `packages\web-cra\build` folder.
