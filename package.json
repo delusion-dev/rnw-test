@@ -11,6 +11,8 @@
     "android": "yarn workspace mobile android",
     "format": "prettier --write .",
     "ios": "yarn workspace mobile ios",
+    "web": "yarn workspace web-cra start",
+    "web:build": "yarn workspace web-cra build",
     "lint": "eslint .",
     "studio": "yarn workspace mobile studio",
     "test": "yarn workspaces run test",
