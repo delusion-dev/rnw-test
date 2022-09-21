@@ -1,3 +1,4 @@
+// prettier-ignore
 {
   "extends": "./tsconfig.base.json",
   "include": [".*.js", "**/*.js", "**/*.ts", "**/*.tsx"],

@@ -6,11 +6,10 @@ Prettier and ESLint are also configured as pre-commit hooks.
 ### How to run
 
 - `$ git clone ...`
-- `$ cd rnw-test`
+- `$ cd rnwtest`
 - `$ yarn`
 - Web
   - [CRA] `$ yarn web`
-  - [Next.js] `$ yarn workspace web-nextjs dev`
 - Mobile
   - [iOS]
     - `$ cd packages/mobile/ios && pod update && pod install && cd -`
