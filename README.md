@@ -30,4 +30,6 @@ Prettier and ESLint are also configured as pre-commit hooks.
 ### Chrome extension
 
 - `$ yarn web:build`
-- Visit `chrome://extensions/` on your Chrome browser and enable the devel
+- Visit `chrome://extensions/` on your Chrome browser and enable the developer mode
+- Click `Load unpacked` and select `packages\web\build` folder.
+- Use extension
