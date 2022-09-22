@@ -10,7 +10,6 @@ Prettier and ESLint are also configured as pre-commit hooks.
 - `$ yarn`
 - Web
   - [CRA] `$ yarn web`
-  - [Next.js] `$ yarn workspace web-nextjs dev`
 - Mobile
   - [iOS]
     - `$ cd packages/mobile/ios && pod update && pod install && cd -`
@@ -31,5 +30,4 @@ Prettier and ESLint are also configured as pre-commit hooks.
 ### Chrome extension
 
 - `$ yarn web:build`
-- Visit `chrome://extensions/` on your Chrome browser and enable the developer mode toggle.
-- Then, click `Load unpacked` and select your `packages\web-cra\build` folder.
+- Visit `chrome://extensions/` on your Chrome browser and enable the devel
