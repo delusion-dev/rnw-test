@@ -10,8 +10,8 @@
   "scripts": {
     "android": "yarn workspace mobile android",
     "ios": "yarn workspace mobile ios",
-    "web": "yarn workspace web-cra start",
-    "web:build": "yarn workspace web-cra build"
+    "web": "yarn workspace web start",
+    "web:build": "yarn workspace web build"
   },
   "dependencies": {
     "react-native": "0.70.1"
